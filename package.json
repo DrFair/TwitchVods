@@ -1,0 +1,32 @@
+{
+  "name": "twitchvods",
+  "version": "1.0.0",
+  "description": "Website to browse Twitch vods",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+    "build": "cd client && npm run build",
+    "dev": "cd client && npm start",
+    "prod": "npm run build && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mads Skovgaard",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "csrf": "^3.0.6",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "nedb": "^1.8.0",
+    "nedb-session-store": "^1.1.2",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}

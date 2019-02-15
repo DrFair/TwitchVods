@@ -1,0 +1,17 @@
+.details {
+  padding: 0px 20px;
+}
+
+.details tr td {
+  padding: 0px 10px;
+}
+
+.details tr td:first-child {
+  font-weight: bold;
+  width: 50px;
+  white-space: nowrap;
+}
+
+.details tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
