@@ -122,7 +122,7 @@ class VODByTime extends Component {
     const { result } = this.state;
     return (
       <>
-        <h3 className="text-center page-header mt-4">Get VOD by time</h3>
+        <h3 className="text-center page-header mt-4">Find VOD by time</h3>
         <form>
           <div className="form-group">
             <label><strong>Channel name</strong></label>
