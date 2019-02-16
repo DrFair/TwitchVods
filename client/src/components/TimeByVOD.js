@@ -32,7 +32,7 @@ class TimeByVOD extends Component {
         const idReg = /videos\/(\d+)/i
         const idMatch = value.match(idReg);
         this.setState({
-          result: null
+          result: <p>...</p>
         });
         fetch('/time?csrfToken=' + this.props.csrfToken + '&id=' + idMatch[1] + '&secs=' + finalSecs, {
           method: 'GET',

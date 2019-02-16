@@ -20,7 +20,7 @@ class VODByTime extends Component {
   submit(event) {
     event.preventDefault();
     this.setState({
-      result: null
+      result: <p>...</p>
     });
     const channel = this.channelInput.current.value;
     const time = Date.parse(this.timeInput.current.value);
